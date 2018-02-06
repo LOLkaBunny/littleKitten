@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class characterController : MonoBehaviour {
 
     public float maxSpeed = 10f;
-    public float jumpForce = 700f;
+    public float jumpForce = 100f;
     bool facingRight = true;
     bool grounded = false;
     public Transform groundCheck;

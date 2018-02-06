@@ -14,4 +14,24 @@ public class starScript : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void GetX(float a)
+    {
+        x = a;
+    }
+
+    void GetY(float a)
+    {
+        y = a;
+    }
+
+    float SetX()
+    {
+        return x;
+    }
+
+    float SetY()
+    {
+        return y;
+    }
 }
