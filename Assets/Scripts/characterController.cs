@@ -18,8 +18,10 @@ public class characterController : MonoBehaviour {
     private Rigidbody2D rigidbody2D;
     public float spawnX, spawnY;
     public float starX, starY;
-    public float star_counter;
+    public int star_counter;
     public int lives;
+    GameObject star;
+    GameObject c;
 
     // Use this for initialization
     void Start()
@@ -84,6 +86,7 @@ public class characterController : MonoBehaviour {
         if (col.gameObject.tag == "star")
         {
             score++;
+            star_counter++; //увеличить счетчик звезд
             Destroy(col.gameObject);
         }
     }
@@ -99,6 +102,10 @@ public class characterController : MonoBehaviour {
                 transform.position = new Vector3(spawnX, spawnY, transform.position.z);
 
                 //вернуть все звезды на уровне
+                /*for (int i = 0; i < star_counter; i++)
+                {
+                    c = (GameObject)Instantiate(star, transform.position, transform.rotation);
+                }*/
             }
             else
             {

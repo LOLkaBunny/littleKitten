@@ -8,6 +8,7 @@ public class cameraScript : MonoBehaviour {
     public Transform target;
     public new Camera camera;
 
+
    // Use this for initialization
     void Start () {
         transform.position = new Vector3(0, 0, transform.position.z);
