@@ -125,7 +125,25 @@ public class characterController : MonoBehaviour {
         else if (col.gameObject.name == "endLevel2")
         {
             if (!(GameObject.Find("star")))
-                SceneManager.LoadScene("scene1");
+            {
+                //SceneManager.LoadScene("scene1");
+                GUI.Box(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 150, 200, 300), "Menu");
+                if (GUI.Button(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 100, 100, 25), "Reload Game"))
+                {
+                    Application.LoadLevel("scene1");
+                }
+
+                if (GUI.Button(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 50, 100, 25), "Settings"))
+                {
+                    //Application.LoadLevel("Game");
+                }
+
+                if (GUI.Button(new Rect(Screen.width / 2 - 50, Screen.height / 2, 100, 25), "Exit"))
+                {
+                    Application.Quit();
+                }
+            }
+
 
         }
     }

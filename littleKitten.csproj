@@ -285,6 +285,7 @@
     <Compile Include="Assets\Scripts\cameraScript.cs" />
     <Compile Include="Assets\Scripts\characterController.cs" />
     <Compile Include="Assets\Scripts\enemyScript.cs" />
+    <Compile Include="Assets\Scripts\Main_menu\Menu.cs" />
     <Compile Include="Assets\Scripts\sawScript.cs" />
     <Compile Include="Assets\Scripts\starScript.cs" />
   </ItemGroup>

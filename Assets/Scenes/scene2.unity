@@ -721,6 +721,11 @@ Prefab:
       propertyPath: m_Offset.x
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 61554721582455588, guid: fffa5c7b20e715e46a91c5b48232a790,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fffa5c7b20e715e46a91c5b48232a790, type: 2}
   m_IsPrefabParent: 0
@@ -772,6 +777,21 @@ Prefab:
         type: 2}
       propertyPath: jumpForce
       value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 61895609028288614, guid: 5f98510d27e57964daccd3330dec93d0,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 11.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 58589799108076444, guid: 5f98510d27e57964daccd3330dec93d0,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 58589799108076444, guid: 5f98510d27e57964daccd3330dec93d0,
+        type: 2}
+      propertyPath: m_Radius
+      value: 4.26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f98510d27e57964daccd3330dec93d0, type: 2}
